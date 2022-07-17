@@ -170,7 +170,7 @@ ul {
 
 /* стили кнопок фильтра */
 
-.filter .button{
+.filter-button{
     color: var(--title-text-color);
     background-color: #F5F4FA;
     cursor: pointer;
@@ -179,8 +179,8 @@ ul {
     line-height: 1.62;
     text-align: center;
 }
-.filter .button:hover,
-.button:focus{
+.filter-button:hover,
+.filter-button:focus{
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
